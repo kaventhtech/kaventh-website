@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
 
   // CONTACT FORM VALIDATION
@@ -63,12 +64,22 @@ document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.getElementById("nav-links");
 
   if (menuToggle && navLinks) {
+
+    // Set the correct initial icon
+    menuToggle.textContent = navLinks.classList.contains("active") ? "✕" : "☰";
+    menuToggle.setAttribute(
+      "aria-expanded",
+      navLinks.classList.contains("active") ? "true" : "false"
+    );
+
+    // Open and close menu
     menuToggle.addEventListener("click", function () {
       navLinks.classList.toggle("active");
 
       const isOpen = navLinks.classList.contains("active");
-      menuToggle.setAttribute("aria-expanded", isOpen);
+
       menuToggle.textContent = isOpen ? "✕" : "☰";
+      menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
 
     // Close menu after selecting a navigation link
