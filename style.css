@@ -771,3 +771,41 @@ img {
     transition-duration: 0.01ms !important;
   }
 }
+/* DIRECT CONTACT DETAILS */
+
+.contact-details {
+  margin: 35px auto;
+  padding: 28px;
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.contact-details h3 {
+  color: var(--accent);
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.contact-details p {
+  color: var(--muted);
+  margin: 14px 0;
+  overflow-wrap: anywhere;
+}
+
+.contact-details strong {
+  color: var(--white);
+}
+
+.contact-details a,
+.footer .container > p a {
+  color: var(--accent);
+  transition: color 0.3s;
+}
+
+.contact-details a:hover,
+.footer .container > p a:hover {
+  color: var(--white);
+  text-decoration: underline;
+                   }
