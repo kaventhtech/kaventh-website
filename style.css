@@ -808,4 +808,10 @@ img {
 .footer .container > p a:hover {
   color: var(--white);
   text-decoration: underline;
-                   }
+}.brand-logo {
+  width: 360px;
+  height: 130px;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+   }
