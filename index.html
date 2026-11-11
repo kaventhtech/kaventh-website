@@ -7,7 +7,7 @@
 
   <title>KAVENTH TECHNOLOGIES | Web Development Agency</title>
 
-  <meta name="description" content="KAVENTH TECHNOLOGIES builds responsive business websites, landing pages and e-commerce websites, with website maintenance and deployment support.">
+  <meta name="description" content="KAVENTH TECHNOLOGIES builds modern, responsive business websites, restaurant websites, real estate websites and landing pages.">
   <meta name="theme-color" content="#080d20">
 
   <meta property="og:title" content="KAVENTH TECHNOLOGIES">
@@ -17,6 +17,65 @@
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
+
+  <style>
+    /* DEDICATED PORTFOLIO PROJECT IMAGES */
+
+    .portfolio-grid .project-image {
+      min-height: 230px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+
+    .portfolio-grid .project-image::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.05)
+      );
+    }
+
+    .portfolio-grid .project-image span {
+      position: absolute;
+      bottom: 18px;
+      left: 18px;
+      z-index: 1;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .portfolio-grid .project-one {
+      background-image: url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85");
+    }
+
+    .portfolio-grid .project-two {
+      background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85");
+    }
+
+    .portfolio-grid .project-three {
+      background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85");
+    }
+
+    .portfolio-grid .project-four {
+      background-image: url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85");
+    }
+
+    @media (max-width: 600px) {
+      .portfolio-grid .project-image {
+        min-height: 210px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -243,13 +302,17 @@
         <h2>Selected Projects</h2>
 
         <p>
-          Explore selected website projects and demonstration
-          concepts showcasing our web development direction.
+          Explore our website demonstrations across
+          home improvement, hospitality and luxury real estate.
+          Each project showcases our approach to modern
+          design and responsive web development.
         </p>
 
         <div class="portfolio-grid">
 
+          <!-- PROJECT ONE: EVERCREST -->
           <article class="project-card">
+
             <div class="project-image project-one">
               <span>LIVE WEBSITE</span>
             </div>
@@ -278,69 +341,76 @@
                 for the KAVENTH TECHNOLOGIES portfolio.
               </small>
             </p>
+
           </article>
 
+          <!-- PROJECT TWO: EMBER & OLIVE -->
           <article class="project-card">
+
             <div class="project-image project-two">
-              <span>WEBSITE CONCEPT</span>
+              <span>LIVE WEBSITE</span>
             </div>
 
-            <h3>Business Website Concept</h3>
+            <h3>Ember & Olive Restaurant</h3>
 
             <p>
-              A practice project exploring professional
-              business layouts, service sections,
-              responsive presentation and contact features.
+              A premium restaurant website demonstration
+              featuring elegant design, signature menu items,
+              food presentation and a reservation section.
             </p>
 
-            <p><small>Demonstration project.</small></p>
+            <div class="project-action">
+              <a
+                href="https://kaventhtech.github.io/EMBER-OLIVE-RESTAURANT./"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer">
+                Explore Live Project →
+              </a>
+            </div>
+
+            <p>
+              <small>
+                Demonstration restaurant website developed
+                for the KAVENTH TECHNOLOGIES portfolio.
+              </small>
+            </p>
+
           </article>
 
-<article class="project-card">
-  <div class="project-image project-three">
-    <span>LIVE WEBSITE</span>
-  </div>
-
-  <h3>Ember & Olive Restaurant</h3>
-
-  <p>
-    A premium restaurant website demonstration
-    featuring elegant design, signature menu items,
-    food presentation and a reservation section.
-  </p>
-
-  <div class="project-action">
-    <a
-      href="https://kaventhtech.github.io/EMBER-OLIVE-RESTAURANT./"
-      class="btn btn-primary"
-      target="_blank"
-      rel="noopener noreferrer">
-      Explore Live Project →
-    </a>
-  </div>
-
-  <p>
-    <small>
-      Demonstration restaurant website developed
-      for the KAVENTH TECHNOLOGIES portfolio.
-    </small>
-  </p>
-</article>
-
+          <!-- PROJECT THREE: LUXORA ESTATES -->
           <article class="project-card">
-            <div class="project-image project-one">
-              <span>WEBSITE CONCEPT</span>
+
+            <div class="project-image project-four">
+              <span>LIVE WEBSITE</span>
             </div>
 
-            <h3>Real Estate Website Concept</h3>
+            <h3>Luxora Estates</h3>
 
             <p>
-              A planned property website demonstration
-              featuring property listings, descriptions
-              and customer enquiry features.
+              A luxury real estate website demonstration
+              showcasing premium property listings, property
+              search filters, elegant presentation and
+              customer enquiry features.
             </p>
 
-            <p><small>Planned portfolio project.</small></p>
+            <div class="project-action">
+              <a
+                href="https://kaventhtech.github.io/LUXORA-ESTATES/"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer">
+                Explore Live Project →
+              </a>
+            </div>
+
+            <p>
+              <small>
+                Demonstration real estate website developed
+                for the KAVENTH TECHNOLOGIES portfolio.
+              </small>
+            </p>
+
           </article>
 
         </div>
@@ -627,52 +697,4 @@
         </span>
       </a>
 
-      <p>Ideas into innovation.</p>
-
-      <div class="footer-links">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms</a>
-      </div>
-
-      <p>
-        <strong>Phone & WhatsApp:</strong>
-        <a href="tel:+2349116198641">+234 911 619 8641</a>
-      </p>
-
-      <p>
-        <strong>Alternative Phone:</strong>
-        <a href="tel:+2347079743511">+234 707 974 3511</a>
-      </p>
-
-      <p>
-        <strong>Email:</strong>
-        <a href="mailto:kaventhtech@gmail.com">
-          kaventhtech@gmail.com
-        </a>
-      </p>
-
-      <p class="copyright">
-        © <span id="copyright-year"></span> KAVENTH TECHNOLOGIES.
-        All rights reserved.
-      </p>
-
-    </div>
-  </footer>
-
-  <!-- FLOATING WHATSAPP BUTTON -->
-  <a
-    class="whatsapp-float"
-    href="https://wa.me/2349116198641?text=Hello%20KAVENTH%20TECHNOLOGIES%2C%20I%27m%20interested%20in%20your%20web%20development%20services."
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Chat with KAVENTH TECHNOLOGIES on WhatsApp">
-    WhatsApp Us
-  </a>
-
-</body>
-  </html>
-            
+ 
