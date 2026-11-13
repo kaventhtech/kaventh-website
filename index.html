@@ -1,646 +1,686 @@
-<!DOCTYPE html>  <html lang="en">  
-<head>  
-  <meta charset="UTF-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>KAVENTH TECHNOLOGIES | Web Development Agency</title>    <meta name="description" content="KAVENTH TECHNOLOGIES builds modern, responsive business websites, restaurant websites, real estate websites and landing pages.">  
-  <meta name="theme-color" content="#080d20">    <meta property="og:title" content="KAVENTH TECHNOLOGIES">  
-  <meta property="og:description" content="Professional web development, website maintenance and deployment support. Ideas into innovation.">  
-  <meta property="og:type" content="website">    <link rel="icon" href="favicon.png">  
-  <link rel="stylesheet" href="style.css">  
-  <script src="script.js" defer></script>    <style>  
-    /* DEDICATED PORTFOLIO PROJECT IMAGES */  
-  
-    .portfolio-grid .project-image {  
-      min-height: 230px;  
-      width: 100%;  
-      background-size: cover;  
-      background-position: center;  
-      background-repeat: no-repeat;  
-      position: relative;  
-      overflow: hidden;  
-      border-radius: 12px;  
-    }  
-  
-    .portfolio-grid .project-image::before {  
-      content: "";  
-      position: absolute;  
-      inset: 0;  
-      background: linear-gradient(  
-        to top,  
-        rgba(0, 0, 0, 0.55),  
-        rgba(0, 0, 0, 0.05)  
-      );  
-    }  
-  
-    .portfolio-grid .project-image span {  
-      position: absolute;  
-      bottom: 18px;  
-      left: 18px;  
-      z-index: 1;  
-      color: #ffffff;  
-      font-size: 12px;  
-      font-weight: 700;  
-      letter-spacing: 2px;  
-    }  
-  
-    .portfolio-grid .project-one {  
-      background-image: url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85");  
-    }  
-  
-    .portfolio-grid .project-two {  
-      background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85");  
-    }  
-  
-    .portfolio-grid .project-three {  
-      background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85");  
-    }  
-  
-    .portfolio-grid .project-four {  
-      background-image: url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85");  
-    }  
-  
-    @media (max-width: 600px) {  
-      .portfolio-grid .project-image {  
-        min-height: 210px;  
-      }  
-    }  
-  </style>  </head>  <body>    <!-- HEADER -->    <header class="header">  
-    <nav class="navbar container">  <a href="#home" class="logo" aria-label="KAVENTH TECHNOLOGIES home">  
-    <img  
-      src="./Image/21a39c8d-aa55-42b7-8d8a-c641ecc349b7.jpg"  
-      alt="KAVENTH TECHNOLOGIES Logo"  
-      class="brand-logo">  
-  </a>  
-
-  <button  
-    type="button"  
-    class="menu-toggle"  
-    id="menu-toggle"  
-    aria-label="Open navigation"  
-    aria-expanded="false"  
-    aria-controls="nav-links">  
-    <span id="menu-icon">☰</span>  
-  </button>  
-
-  <ul class="nav-links" id="nav-links">  
-    <li><a href="#home">Home</a></li>  
-    <li><a href="#about">About</a></li>  
-    <li><a href="#services">Services</a></li>  
-    <li><a href="#portfolio">Portfolio</a></li>  
-    <li><a href="#process">Our Process</a></li>  
-    <li><a href="#faq">FAQ</a></li>  
-    <li><a href="#contact" class="nav-contact">Contact Us</a></li>  
-  </ul>  
-
-</nav>
-
-  </header>    <main>  <!-- HERO -->  
-<section class="hero" id="home">  
-  <div class="container hero-content">  
-
-    <div class="hero-text">  
-      <p class="eyebrow">WEB DEVELOPMENT & DIGITAL SOLUTIONS</p>  
-
-      <h1>  
-        We Build Websites  
-        <span>That Move Businesses Forward.</span>  
-      </h1>  
-
-      <p>  
-        We develop modern, responsive and user-friendly  
-        websites that help businesses establish their  
-        online presence, connect with customers and grow.  
-      </p>  
-
-      <div class="hero-buttons">  
-        <a href="#portfolio" class="btn btn-primary">  
-          Explore Our Work  
-        </a>  
-
-        <a href="#contact" class="btn btn-outline">  
-          Start a Project  
-        </a>  
-      </div>  
-    </div>  
-
-    <div class="hero-visual">  
-      <div class="visual-card">  
-        <span class="visual-k">K</span>  
-        <h2>Design. Develop. Deliver.</h2>  
-        <p>Building better digital experiences.</p>  
-      </div>  
-    </div>  
-
-  </div>  
-</section>  
-
-<!-- INTRODUCTION -->  
-<section class="intro section">  
-  <div class="container">  
-    <p class="eyebrow">YOUR DIGITAL PARTNER</p>  
-
-    <h2>Turning business ideas into powerful websites.</h2>  
-
-    <p>  
-      Your website is often the first impression customers  
-      have of your business. We focus on building clear,  
-      responsive and practical websites that help businesses  
-      present their services professionally online.  
-    </p>  
-  </div>  
-</section>  
-
-<!-- ABOUT -->  
-<section class="about section" id="about">  
-  <div class="container">  
-
-    <p class="eyebrow">GET TO KNOW US</p>  
-    <h2>About KAVENTH</h2>  
-
-    <p>  
-      KAVENTH TECHNOLOGIES is a web development brand  
-      focused on creating modern websites and providing  
-      practical website support. We believe good websites  
-      should look professional, work smoothly and be  
-      accessible across different devices.  
-    </p>  
-
-    <div class="about-grid">  
-
-      <article class="info-card">  
-        <h3>Our Mission</h3>  
-        <p>  
-          To help businesses build a strong online presence  
-          through useful, responsive and reliable websites.  
-        </p>  
-      </article>  
-
-      <article class="info-card">  
-        <h3>Our Vision</h3>  
-        <p>  
-          To grow into a trusted web development company  
-          serving businesses and individuals worldwide.  
-        </p>  
-      </article>  
-
-      <article class="info-card">  
-        <h3>Our Values</h3>  
-        <p>  
-          Quality, honesty, communication, reliability  
-          and continuous improvement.  
-        </p>  
-      </article>  
-
-    </div>  
-  </div>  
-</section>  
-
-<!-- SERVICES -->  
-<section class="services section" id="services">  
-  <div class="container">  
-
-    <p class="eyebrow">WHAT WE DO</p>  
-    <h2>Our Web Development Services</h2>  
-
-    <p>  
-      Practical website solutions designed around  
-      your business needs.  
-    </p>  
-
-    <div class="services-grid">  
-
-      <article class="service-card">  
-        <span class="service-icon">⌘</span>  
-        <h3>Business Website Development</h3>  
-        <p>  
-          Professional websites that introduce your  
-          business, showcase your services and help  
-          customers connect with you.  
-        </p>  
-      </article>  
-
-      <article class="service-card">  
-        <span class="service-icon">▣</span>  
-        <h3>Landing Page Development</h3>  
-        <p>  
-          Focused landing pages designed to present  
-          an offer, promote a service and encourage  
-          visitors to take action.  
-        </p>  
-      </article>  
-
-      <article class="service-card">  
-        <span class="service-icon">◈</span>  
-        <h3>E-commerce Websites</h3>  
-        <p>  
-          Online store development to help businesses  
-          display products and build their online  
-          shopping experience.  
-        </p>  
-      </article>  
-
-      <article class="service-card">  
-        <span class="service-icon">↗</span>  
-        <h3>Website Redesign</h3>  
-        <p>  
-          Improving existing websites with cleaner  
-          layouts, better navigation and responsive  
-          presentation.  
-        </p>  
-      </article>  
-
-      <article class="service-card">  
-        <span class="service-icon">⚙</span>  
-        <h3>Website Maintenance</h3>  
-        <p>  
-          Website updates, content changes, technical  
-          checks, bug fixes and ongoing support.  
-        </p>  
-      </article>  
-
-      <article class="service-card">  
-        <span class="service-icon">⌁</span>  
-        <h3>Hosting & Deployment Support</h3>  
-        <p>  
-          Assistance with publishing websites,  
-          connecting domains and managing hosting  
-          and deployment arrangements.  
-        </p>  
-      </article>  
-
-    </div>  
-  </div>  
-</section>  
-
-<!-- PORTFOLIO -->  
-<section class="portfolio section" id="portfolio">  
-  <div class="container">  
-
-    <p class="eyebrow">OUR DEVELOPMENT WORK</p>  
-    <h2>Selected Projects</h2>  
-
-    <p>  
-      Explore our website demonstrations across  
-      home improvement, hospitality and luxury real estate.  
-      Each project showcases our approach to modern  
-      design and responsive web development.  
-    </p>  
-
-    <div class="portfolio-grid">  
-
-      <!-- PROJECT ONE: EVERCREST -->  
-      <article class="project-card">  
-
-        <div class="project-image project-one">  
-          <span>LIVE WEBSITE</span>  
-        </div>  
-
-        <h3>Evercrest Home Solutions</h3>  
-
-        <p>  
-          A home renovation and remodeling website  
-          demonstration featuring service presentation,  
-          business information and customer enquiries.  
-        </p>  
-
-        <div class="project-action">  
-          <a  
-            href="https://kaventhtech.github.io/EVERCREST-HOME-SOLUTIONS-/"  
-            class="btn btn-primary"  
-            target="_blank"  
-            rel="noopener noreferrer">  
-            Explore Live Project →  
-          </a>  
-        </div>  
-
-        <p>  
-          <small>  
-            Demonstration business website developed  
-            for the KAVENTH TECHNOLOGIES portfolio.  
-          </small>  
-        </p>  
-
-      </article>  
-
-      <!-- PROJECT TWO: EMBER & OLIVE -->  
-      <article class="project-card">  
-
-        <div class="project-image project-two">  
-          <span>LIVE WEBSITE</span>  
-        </div>  
-
-        <h3>Ember & Olive Restaurant</h3>  
-
-        <p>  
-          A premium restaurant website demonstration  
-          featuring elegant design, signature menu items,  
-          food presentation and a reservation section.  
-        </p>  
-
-        <div class="project-action">  
-          <a  
-            href="https://kaventhtech.github.io/EMBER-OLIVE-RESTAURANT./"  
-            class="btn btn-primary"  
-            target="_blank"  
-            rel="noopener noreferrer">  
-            Explore Live Project →  
-          </a>  
-        </div>  
-
-        <p>  
-          <small>  
-            Demonstration restaurant website developed  
-            for the KAVENTH TECHNOLOGIES portfolio.  
-          </small>  
-        </p>  
-
-      </article>  
-
-    </div>  
-  </div>  
-</section>  
-
-<!-- DEVELOPMENT APPROACH -->  
-<section class="skills section" id="skills">  
-  <div class="container">  
-
-    <p class="eyebrow">OUR DEVELOPMENT APPROACH</p>  
-    <h2>Technology & Capabilities</h2>  
-
-    <p>  
-      We continue to develop our technical capabilities  
-      through practical projects, testing and ongoing learning.  
-    </p>  
-
-    <div class="skills-grid">  
-
-      <div class="skill-card">  
-        <h3>HTML</h3>  
-        <p>Website structure and content.</p>  
-      </div>  
-
-      <div class="skill-card">  
-        <h3>CSS</h3>  
-        <p>Responsive layouts and styling.</p>  
-      </div>  
-
-      <div class="skill-card">  
-        <h3>JavaScript</h3>  
-        <p>Interactive website features.</p>  
-      </div>  
-
-      <div class="skill-card">  
-        <h3>Responsive Development</h3>  
-        <p>Experiences across screen sizes.</p>  
-      </div>  
-
-      <div class="skill-card">  
-        <h3>Git & GitHub</h3>  
-        <p>Code management and collaboration.</p>  
-      </div>  
-
-      <div class="skill-card">  
-        <h3>Website Deployment</h3>  
-        <p>Publishing and maintaining websites.</p>  
-      </div>  
-
-    </div>  
-  </div>  
-</section>  
-
-<!-- PROCESS -->  
-<section class="process section" id="process">  
-  <div class="container">  
-
-    <p class="eyebrow">HOW WE WORK</p>  
-    <h2>Our Development Process</h2>  
-
-    <div class="process-grid">  
-
-      <article>  
-        <span>01</span>  
-        <h3>Discover</h3>  
-        <p>  
-          Understand your business, goals and  
-          website requirements.  
-        </p>  
-      </article>  
-
-      <article>  
-        <span>02</span>  
-        <h3>Plan</h3>  
-        <p>  
-          Organise the website structure,  
-          content and development approach.  
-        </p>  
-      </article>  
-
-      <article>  
-        <span>03</span>  
-        <h3>Develop</h3>  
-        <p>  
-          Build the website and add the  
-          required features.  
-        </p>  
-      </article>  
-
-      <article>  
-        <span>04</span>  
-        <h3>Test & Deliver</h3>  
-        <p>  
-          Check the website, make agreed  
-          improvements and prepare it for launch.  
-        </p>  
-      </article>  
-
-    </div>  
-  </div>  
-</section>  
-
-<!-- FAQ -->  
-<section class="faq section" id="faq">  
-  <div class="container">  
-
-    <p class="eyebrow">COMMON QUESTIONS</p>  
-    <h2>Frequently Asked Questions</h2>  
-
-    <details>  
-      <summary>What does KAVENTH TECHNOLOGIES do?</summary>  
-      <p>  
-        We focus on building websites for businesses  
-        and individuals, as well as website maintenance  
-        and deployment support.  
-      </p>  
-    </details>  
-
-    <details>  
-      <summary>What types of websites can I request?</summary>  
-      <p>  
-        You can enquire about business websites,  
-        landing pages, online stores and website  
-        redesign projects.  
-      </p>  
-    </details>  
-
-    <details>  
-      <summary>Do you maintain existing websites?</summary>  
-      <p>  
-        Yes. You can contact us to discuss website  
-        updates, improvements, maintenance and  
-        technical support requirements.  
-      </p>  
-    </details>  
-
-    <details>  
-      <summary>Can you help publish my website?</summary>  
-      <p>  
-        Yes. Contact us to discuss deployment,  
-        domain connection and hosting support.  
-        Hosting services and third-party costs  
-        are discussed separately.  
-      </p>  
-    </details>  
-
-    <details>  
-      <summary>How do I request a project?</summary>  
-      <p>  
-        Send an enquiry through our contact form  
-        or contact us directly by WhatsApp or phone.  
-      </p>  
-    </details>  
-
-  </div>  
-</section>  
-
-<!-- CONTACT -->  
-<section class="contact section" id="contact">  
-  <div class="container">  
-
-    <p class="eyebrow">LET'S BUILD SOMETHING</p>  
-    <h2>Have a Website Project in Mind?</h2>  
-
-    <p>  
-      Tell us about your business and what you  
-      would like your website to achieve.  
-      Let's discuss your project.  
-    </p>  
-
-    <!-- DIRECT CONTACT DETAILS -->  
-    <div class="contact-details">  
-
-      <h3>Contact KAVENTH TECHNOLOGIES</h3>  
-
-      <p>  
-        <strong>Phone & WhatsApp:</strong>  
-        <a href="tel:+2349116198641">+234 911 619 8641</a>  
-      </p>  
-
-      <p>  
-        <strong>Alternative Phone:</strong>  
-        <a href="tel:+2347079743511">+234 707 974 3511</a>  
-      </p>  
-
-      <p>  
-        <strong>WhatsApp Chat:</strong>  
-        <a  
-          href="https://wa.me/2349116198641?text=Hello%20KAVENTH%20TECHNOLOGIES%2C%20I%27m%20interested%20in%20your%20web%20development%20services."  
-          target="_blank"  
-          rel="noopener noreferrer">  
-          Chat with us on WhatsApp  
-        </a>  
-      </p>  
-
-      <p>  
-        <strong>Email:</strong>  
-        <a href="mailto:kaventhtech@gmail.com">  
-          kaventhtech@gmail.com  
-        </a>  
-      </p>  
-
-    </div>  
-
-    <!-- WEB3FORMS CONTACT FORM -->  
-    <form  
-      id="contact-form"  
-      action="https://api.web3forms.com/submit"  
-      method="POST">  
-
-      <input  
-        type="hidden"  
-        name="access_key"  
-        value="190766d9-dae2-48c5-a7b8-7dbb57de92e9">  
-
-      <input  
-        type="hidden"  
-        name="subject"  
-        value="New KAVENTH TECHNOLOGIES Website Enquiry">  
-
-      <input  
-        type="hidden"  
-        name="from_name"  
-        value="KAVENTH TECHNOLOGIES Website">  
-
-      <label for="name">Your Name</label>  
-      <input  
-        type="text"  
-        id="name"  
-        name="name"  
-        placeholder="Enter your name"  
-        required>  
-
-      <label for="email">Email Address</label>  
-      <input  
-        type="email"  
-        id="email"  
-        name="email"  
-        placeholder="Enter your email"  
-        required>  
-
-      <label for="service">Website Service</label>  
-      <select id="service" name="service" required>  
-        <option value="">Choose a service</option>  
-        <option value="Business Website Development">Business Website Development</option>  
-        <option value="Landing Page Development">Landing Page Development</option>  
-        <option value="E-commerce Website">E-commerce Website</option>  
-        <option value="Website Redesign">Website Redesign</option>  
-        <option value="Website Maintenance">Website Maintenance</option>  
-        <option value="Hosting and Deployment Support">Hosting and Deployment Support</option>  
-        <option value="Other">Other</option>  
-      </select>  
-
-      <label for="message">Project Details</label>  
-      <textarea  
-        id="message"  
-        name="message"  
-        rows="5"  
-        placeholder="Tell us about the website you need..."  
-        required></textarea>  
-
-      <button type="submit" class="btn btn-primary">  
-        Send Project Enquiry  
-      </button>  
-
-      <p id="form-status" role="status" aria-live="polite"></p>  
-
-    </form>  
-  </div>  
-</section>
-
-  </main>    <!-- FOOTER -->    <footer class="footer">  
-    <div class="container">  <a href="#home" class="logo footer-logo">  
-    <span class="logo-mark">K</span>  
-    <span>  
-      KAVENTH  
-      <small>TECHNOLOGIES</small>  
-    </span>  
-  </a>  
-
-</div>
-
-  </footer>    <script>  
-    const currentYear = new Date().getFullYear();  
-    document.querySelector(".footer .container").insertAdjacentHTML(  
-      "beforeend",  
-      `<p class="footer-copy">&copy; ${currentYear} KAVENTH TECHNOLOGIES. All rights reserved.</p>`  
-    );  
-  </script>  </body>  
-          </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>KAVENTH TECHNOLOGIES | Professional Web Design & Development</title>
+
+  <meta name="description" content="KAVENTH TECHNOLOGIES designs and develops modern, responsive websites for businesses, restaurants, real estate brands and individuals. Professional web development and digital solutions. Ideas into innovation.">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#080d20">
+
+  <link rel="canonical" href="https://kaventhtech.github.io/kaventh-website/">
+
+  <meta property="og:title" content="KAVENTH TECHNOLOGIES | Web Design & Development">
+  <meta property="og:description" content="We design and develop modern, responsive websites for businesses and brands. Ideas into innovation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kaventhtech.github.io/kaventh-website/">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="KAVENTH TECHNOLOGIES">
+  <meta name="twitter:description" content="Professional web design, development and digital solutions. Ideas into innovation.">
+
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <!-- STRUCTURED DATA FOR SEARCH ENGINES -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "KAVENTH TECHNOLOGIES",
+    "url": "https://kaventhtech.github.io/kaventh-website/",
+    "description": "KAVENTH TECHNOLOGIES designs and develops modern, responsive websites for businesses, brands and individuals.",
+    "slogan": "Ideas into innovation."
+  }
+  </script>
+
+  <style>
+    /* DEDICATED PORTFOLIO PROJECT IMAGES */
+
+    .portfolio-grid .project-image {
+      min-height: 230px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+
+    .portfolio-grid .project-image::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.05)
+      );
+    }
+
+    .portfolio-grid .project-image span {
+      position: absolute;
+      bottom: 18px;
+      left: 18px;
+      z-index: 1;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .portfolio-grid .project-one {
+      background-image: url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85");
+    }
+
+    .portfolio-grid .project-two {
+      background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85");
+    }
+
+    .portfolio-grid .project-three {
+      background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85");
+    }
+
+    .portfolio-grid .project-four {
+      background-image: url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85");
+    }
+
+    @media (max-width: 600px) {
+      .portfolio-grid .project-image {
+        min-height: 210px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar container">
+
+      <a href="#home" class="logo" aria-label="KAVENTH TECHNOLOGIES home">
+        <img
+          src="./Image/21a39c8d-aa55-42b7-8d8a-c641ecc349b7.jpg"
+          alt="KAVENTH TECHNOLOGIES Logo"
+          class="brand-logo">
+      </a>
+
+      <button
+        type="button"
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        <span id="menu-icon">☰</span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#process">Our Process</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="nav-contact">Contact Us</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+
+        <div class="hero-text">
+          <p class="eyebrow">WEB DEVELOPMENT & DIGITAL SOLUTIONS</p>
+
+          <h1>
+            We Build Websites
+            <span>That Move Businesses Forward.</span>
+          </h1>
+
+          <p>
+            We develop modern, responsive and user-friendly
+            websites that help businesses establish their
+            online presence, connect with customers and grow.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary">
+              Explore Our Work
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+              Start a Project
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card">
+            <span class="visual-k">K</span>
+            <h2>Design. Develop. Deliver.</h2>
+            <p>Building better digital experiences.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="intro section">
+      <div class="container">
+        <p class="eyebrow">YOUR DIGITAL PARTNER</p>
+
+        <h2>Turning business ideas into powerful websites.</h2>
+
+        <p>
+          Your website is often the first impression customers
+          have of your business. We focus on building clear,
+          responsive and practical websites that help businesses
+          present their services professionally online.
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container">
+
+        <p class="eyebrow">GET TO KNOW US</p>
+        <h2>About KAVENTH</h2>
+
+        <p>
+          KAVENTH TECHNOLOGIES is a web development brand
+          focused on creating modern websites and providing
+          practical website support. We believe good websites
+          should look professional, work smoothly and be
+          accessible across different devices.
+        </p>
+
+        <div class="about-grid">
+
+          <article class="info-card">
+            <h3>Our Mission</h3>
+            <p>
+              To help businesses build a strong online presence
+              through useful, responsive and reliable websites.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <h3>Our Vision</h3>
+            <p>
+              To grow into a trusted web development company
+              serving businesses and individuals worldwide.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <h3>Our Values</h3>
+            <p>
+              Quality, honesty, communication, reliability
+              and continuous improvement.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <div class="container">
+
+        <p class="eyebrow">WHAT WE DO</p>
+        <h2>Our Web Development Services</h2>
+
+        <p>
+          Practical website solutions designed around
+          your business needs.
+        </p>
+
+        <div class="services-grid">
+
+          <article class="service-card">
+            <span class="service-icon">⌘</span>
+            <h3>Business Website Development</h3>
+            <p>
+              Professional websites that introduce your
+              business, showcase your services and help
+              customers connect with you.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">▣</span>
+            <h3>Landing Page Development</h3>
+            <p>
+              Focused landing pages designed to present
+              an offer, promote a service and encourage
+              visitors to take action.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">◈</span>
+            <h3>E-commerce Websites</h3>
+            <p>
+              Online store development to help businesses
+              display products and build their online
+              shopping experience.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">↗</span>
+            <h3>Website Redesign</h3>
+            <p>
+              Improving existing websites with cleaner
+              layouts, better navigation and responsive
+              presentation.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">⚙</span>
+            <h3>Website Maintenance</h3>
+            <p>
+              Website updates, content changes, technical
+              checks, bug fixes and ongoing support.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">⌁</span>
+            <h3>Hosting & Deployment Support</h3>
+            <p>
+              Assistance with publishing websites,
+              connecting domains and managing hosting
+              and deployment arrangements.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+
+        <p class="eyebrow">OUR DEVELOPMENT WORK</p>
+        <h2>Selected Projects</h2>
+
+        <p>
+          Explore our website demonstrations across
+          home improvement, hospitality and luxury real estate.
+          Each project showcases our approach to modern
+          design and responsive web development.
+        </p>
+
+        <div class="portfolio-grid">
+
+          <!-- PROJECT ONE: EVERCREST -->
+          <article class="project-card">
+
+            <div class="project-image project-one">
+              <span>LIVE WEBSITE</span>
+            </div>
+
+            <h3>Evercrest Home Solutions</h3>
+
+            <p>
+              A home renovation and remodeling website
+              demonstration featuring service presentation,
+              business information and customer enquiries.
+            </p>
+
+            <div class="project-action">
+              <a
+                href="https://kaventhtech.github.io/EVERCREST-HOME-SOLUTIONS-/"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer">
+                Explore Live Project →
+              </a>
+            </div>
+
+            <p>
+              <small>
+                Demonstration business website developed
+                for the KAVENTH TECHNOLOGIES portfolio.
+              </small>
+            </p>
+
+          </article>
+
+          <!-- PROJECT TWO: EMBER & OLIVE -->
+          <article class="project-card">
+
+            <div class="project-image project-two">
+              <span>LIVE WEBSITE</span>
+            </div>
+
+            <h3>Ember & Olive Restaurant</h3>
+
+            <p>
+              A premium restaurant website demonstration
+              featuring elegant design, signature menu items,
+              food presentation and a reservation section.
+            </p>
+
+            <div class="project-action">
+              <a
+                href="https://kaventhtech.github.io/EMBER-OLIVE-RESTAURANT./"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer">
+                Explore Live Project →
+              </a>
+            </div>
+
+            <p>
+              <small>
+                Demonstration restaurant website developed
+                for the KAVENTH TECHNOLOGIES portfolio.
+              </small>
+            </p>
+
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVELOPMENT APPROACH -->
+    <section class="skills section" id="skills">
+      <div class="container">
+
+        <p class="eyebrow">OUR DEVELOPMENT APPROACH</p>
+        <h2>Technology & Capabilities</h2>
+
+        <p>
+          We continue to develop our technical capabilities
+          through practical projects, testing and ongoing learning.
+        </p>
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Website structure and content.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Responsive layouts and styling.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Interactive website features.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Responsive Development</h3>
+            <p>Experiences across screen sizes.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Git & GitHub</h3>
+            <p>Code management and collaboration.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Website Deployment</h3>
+            <p>Publishing and maintaining websites.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section" id="process">
+      <div class="container">
+
+        <p class="eyebrow">HOW WE WORK</p>
+        <h2>Our Development Process</h2>
+
+        <div class="process-grid">
+
+          <article>
+            <span>01</span>
+            <h3>Discover</h3>
+            <p>
+              Understand your business, goals and
+              website requirements.
+            </p>
+          </article>
+
+          <article>
+            <span>02</span>
+            <h3>Plan</h3>
+            <p>
+              Organise the website structure,
+              content and development approach.
+            </p>
+          </article>
+
+          <article>
+            <span>03</span>
+            <h3>Develop</h3>
+            <p>
+              Build the website and add the
+              required features.
+            </p>
+          </article>
+
+          <article>
+            <span>04</span>
+            <h3>Test & Deliver</h3>
+            <p>
+              Check the website, make agreed
+              improvements and prepare it for launch.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+      <div class="container">
+
+        <p class="eyebrow">COMMON QUESTIONS</p>
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+          <summary>What does KAVENTH TECHNOLOGIES do?</summary>
+          <p>
+            We focus on building websites for businesses
+            and individuals, as well as website maintenance
+            and deployment support.
+          </p>
+        </details>
+
+        <details>
+          <summary>What types of websites can I request?</summary>
+          <p>
+            You can enquire about business websites,
+            landing pages, online stores and website
+            redesign projects.
+          </p>
+        </details>
+
+        <details>
+          <summary>Do you maintain existing websites?</summary>
+          <p>
+            Yes. You can contact us to discuss website
+            updates, improvements, maintenance and
+            technical support requirements.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can you help publish my website?</summary>
+          <p>
+            Yes. Contact us to discuss deployment,
+            domain connection and hosting support.
+            Hosting services and third-party costs
+            are discussed separately.
+          </p>
+        </details>
+
+        <details>
+          <summary>How do I request a project?</summary>
+          <p>
+            Send an enquiry through our contact form
+            or contact us directly by WhatsApp or phone.
+          </p>
+        </details>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="container">
+
+        <p class="eyebrow">LET'S BUILD SOMETHING</p>
+        <h2>Have a Website Project in Mind?</h2>
+
+        <p>
+          Tell us about your business and what you
+          would like your website to achieve.
+          Let's discuss your project.
+        </p>
+
+        <!-- DIRECT CONTACT DETAILS -->
+        <div class="contact-details">
+
+          <h3>Contact KAVENTH TECHNOLOGIES</h3>
+
+          <p>
+            <strong>Phone & WhatsApp:</strong>
+            <a href="tel:+2349116198641">+234 911 619 8641</a>
+          </p>
+
+          <p>
+            <strong>Alternative Phone:</strong>
+            <a href="tel:+2347079743511">+234 707 974 3511</a>
+          </p>
+
+          <p>
+            <strong>WhatsApp Chat:</strong>
+            <a
+              href="https://wa.me/2349116198641?text=Hello%20KAVENTH%20TECHNOLOGIES%2C%20I%27m%20interested%20in%20your%20web%20development%20services."
+              target="_blank"
+              rel="noopener noreferrer">
+              Chat with us on WhatsApp
+            </a>
+          </p>
+
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:kaventhtech@gmail.com">
+              kaventhtech@gmail.com
+            </a>
+          </p>
+
+        </div>
+
+        <!-- WEB3FORMS CONTACT FORM -->
+        <form
+          id="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST">
+
+          <input
+            type="hidden"
+            name="access_key"
+            value="190766d9-dae2-48c5-a7b8-7dbb57de92e9">
+
+          <input
+            type="hidden"
+            name="subject"
+            value="New KAVENTH TECHNOLOGIES Website Enquiry">
+
+          <input
+            type="hidden"
+            name="from_name"
+            value="KAVENTH TECHNOLOGIES Website">
+
+          <label for="name">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required>
+
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required>
+
+          <label for="service">Website Service</label>
+          <select id="service" name="service" required>
+            <option value="">Choose a service</option>
+            <option value="Business Website Development">Business Website Development</option>
+            <option value="Landing Page Development">Landing Page Development</option>
+            <option value="E-commerce Website">E-commerce Website</option>
+            <option value="Website Redesign">Website Redesign</option>
+            <option value="Website Maintenance">Website Maintenance</option>
+            <option value="Hosting and Deployment Support">Hosting and Deployment Support</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="message">Project Details</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Tell us about the website you need..."
+            required></textarea>
+
+          <button type="submit" class="btn btn-primary">
+            Send Project Enquiry
+          </button>
+
+          <p id="form-status" role="status" aria-live="polite"></p>
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+
+      <a href="#home" class="logo footer-logo">
+        <span class="logo-mark">K</span>
+        <span>
+          KAVENTH
+          <small>TECHNOLOGIES</small>
+        </span>
+      </a>
+
+    </div
